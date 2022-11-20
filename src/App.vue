@@ -29,10 +29,29 @@
           1 BTC equals $16,607.04 USD
         </h2>
 
-        <input
-          type="number"
-          class="rounded-4 border border-solid border-surface-secondary-03 p-16 pt-20 text-title-2 font-medium text-letters-secondary-01"
-        />
+        <form class="flex w-full gap-64">
+          <div class="flex w-full flex-col gap-8">
+            <input
+              type="number"
+              class="rounded-4 border border-solid border-surface-secondary-03 p-16 pt-20 text-title-2 font-medium text-letters-secondary-01"
+            />
+
+            <input
+              class="rounded-4 border border-solid border-surface-secondary-03 p-8 text-title-2 font-medium text-letters-secondary-01"
+            />
+          </div>
+
+          <div class="flex w-full flex-col gap-8">
+            <input
+              type="number"
+              class="rounded-4 border border-solid border-surface-secondary-03 p-16 pt-20 text-title-2 font-medium text-letters-secondary-01"
+            />
+
+            <input
+              class="rounded-4 border border-solid border-surface-secondary-03 p-8 text-title-2 font-medium text-letters-secondary-01"
+            />
+          </div>
+        </form>
       </article>
     </main>
   </div>
